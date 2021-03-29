@@ -1,0 +1,14 @@
+.place__link {
+    font-size: 18px;
+    line-height: 22px;
+    color: inherit;
+    margin: 12px 0 48px;
+    text-decoration-line: none;
+    border-bottom: 1px solid currentColor;
+}
+
+@media (max-width: 740px) {
+    .place__link {
+        margin: 12px 0 0;
+    }
+}
