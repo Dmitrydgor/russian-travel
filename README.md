@@ -4,4 +4,5 @@
 1. Флексбокс
 2. Гриды
 3. Медиа запросы
+---
 [Ссылка на проект](https://dmitrydgor.github.io/russian-travel/)
