@@ -9,14 +9,14 @@
     <title>Путешествия по России</title>
 </head>
 
-<body>
+<body class="body">
     <div class="page">
         <header class="header">
             <img src="./images/logo.svg" alt="логотип" class="header__logo">
-            <div class="header__lang-links">
-                <a href="#" class="link header__lang-link header__lang-link_active" target="_self">Ru</a>
-                <a href="#" class="link header__lang-link" target="_self">En</a>
-            </div>
+            <ul class="header__lang-links">
+                <li><a href="#" class="link header__lang-link header__lang-link_active" target="_self">Ru</a></li>
+                <li><a href="#" class="link header__lang-link" target="_self">En</a></li>
+            </ul>
         </header>
         <section class="lead">
             <h1 class="lead__title">Путешествия
@@ -39,12 +39,15 @@
                 Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их
                 в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и
                 описали некоторые интересные места, достойные вашего отпуска.</p>
-            <p class="intro__list">Часовых поясов <span class="intro__list intro__list_font-weight_normal">11</span>
-                Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_font-weight_normal">12</span>
-                Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_font-weight_normal">16</span>
-                Природных заповедников <span class="intro__list intro__list_font-weight_normal">105</span>
-                Аэропортов <span class="intro__list intro__list_font-weight_normal">241</span></p>
+            <ul class="intro__list">
+                <li> Часовых поясов <span class="intro__value">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__value">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__value">16</span></li>
+                <li>Природных заповедников <span class="intro__value">105</span></li>
+                <li>Аэропортов <span class="intro__value">241</span></li>
+            </ul>
         </section>
+        <section class="gallery">
         <ul class="photo-grid">
             <li><img src="./images/item-1.jpg" alt="вид из окна" class="photo-grid__item"></li>
             <li><img src="./images/item-2.jpg" alt="горы в облаках" class="photo-grid__item"></li>
@@ -59,10 +62,10 @@
             <li><img src="./images/item-11.jpg" alt="байкал" class="photo-grid__item"></li>
             <li><img src="./images/item-12.jpg" alt="туман" class="photo-grid__item"></li>
         </ul>
-        <section class="places">
+        </section>
+        <main class="places">
             <div class="place">
-                <h2 class="title place__title">Куршская
-                    коса</h2>
+                <h2 class="title place__title">Куршская коса</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
                     <a href="http://park-kosa.ru" class="link place__link" target="_blank">park-kosa.ru</a>
@@ -150,11 +153,11 @@
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                 </div>
             </div>
-        </section>
+        </main>
         <section class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
-                <h1 class="title cover__title">До Байкала
-                    «на собаках»</h1>
+                <h2 class="title cover__title">До Байкала
+                    «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе
                     — путешествие от столицы до Байкала
                     на электричках.
